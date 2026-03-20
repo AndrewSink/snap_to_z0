@@ -4,11 +4,7 @@ A simple Blender add-on for 3D print setup.
 
 Snap to Z=0 uses the active face of a mesh to rotate the part onto the build plate, place it at **Z=0**, and optionally center the part on the world origin in **X/Y**.
 
-
-
-https://github.com/user-attachments/assets/02f05a9f-5ef1-4a85-a083-c265b582f265
-
-
+https://github.com/user-attachments/assets/8b7e5020-30bf-4b72-8d96-8338e2b60ea5
 
 ## Features
 
