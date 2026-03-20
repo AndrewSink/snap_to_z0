@@ -1,25 +1,20 @@
 # Snap to Z=0
 
-A simple Blender add-on for rotating a mesh using the active face and placing that face at Z=0 for faster 3D print setup.
+A simple Blender add-on for 3D print setup.
 
-https://github.com/user-attachments/assets/cca609a8-30ea-43c2-9da2-d289b396a977
-
-## What it does
-
-Snap to Z=0 uses the **active face** of a mesh in **Edit Mode** to:
-
-- rotate the object so the selected face points downward
-- move the object so that face sits at **Z=0**
-
-This makes it easy to place models flat on the build plate before exporting for 3D printing.
+Snap to Z=0 uses the active face of a mesh to rotate the part onto the build plate, place it at **Z=0**, and optionally center the part on the world origin in **X/Y**.
 
 ## Features
 
-- Simple one-click workflow
-- Uses the active face for placement
-- Rotates and translates automatically
+- **Snap to Z=0**  
+  Rotates the object so the active face points downward and places that face at **Z=0**
+
+- **Center on XY Origin**  
+  Calculates the center of the mesh bounding box on the platform-facing side and moves the part so it sits on **X=0, Y=0**
+
+- Lightweight and simple
+- Built for fast 3D print prep
 - Lives in the **Tool** tab of the 3D Viewport sidebar
-- Lightweight single-file add-on
 
 ## Installation
 
@@ -32,13 +27,34 @@ This makes it easy to place models flat on the build plate before exporting for 
 
 ## Usage
 
+### Snap to Z=0
+
 1. Select a mesh object
 2. Enter **Edit Mode**
 3. Select a face and make it the **active face**
 4. Open the **3D Viewport Sidebar**
 5. Go to the **Tool** tab
-6. Find **Snap to Z=0**
-7. Click **Snap to Z=0**
+6. Click **Snap to Z=0**
+
+### Center on XY Origin
+
+1. Select a mesh object
+2. In **Object Mode** or **Edit Mode**, open the **3D Viewport Sidebar**
+3. Go to the **Tool** tab
+4. Click **Center on XY Origin**
+
+## Notes
+
+- **Snap to Z=0** uses the **active selected face**
+- **Center on XY Origin** uses the **mesh bounding box**
+- Intended for quick 3D printing prep
+- Best used after orienting a part onto the build plate
+
+## Demo
+
+*Video demo coming soon.*
+
+<!-- Add video or GIF here later -->
 
 ## License
 
