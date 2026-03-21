@@ -155,7 +155,7 @@ class VIEW3D_PT_snap_to_z0(bpy.types.Panel):
     def draw(self, context):
         layout = self.layout
         col = layout.column(align=True)
-        col.label(text="3D Print Placement")
+        col.label(text="Model Alignment")
         col.operator("object.snap_face_to_z0", icon='TRIA_DOWN_BAR')
         col.operator("object.center_to_origin", icon='ORIENTATION_GLOBAL')
 
