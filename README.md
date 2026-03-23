@@ -29,6 +29,9 @@ https://github.com/user-attachments/assets/8b7e5020-30bf-4b72-8d96-8338e2b60ea5
 
 ## Usage
 
+### 3D Scan Example:
+https://github.com/user-attachments/assets/89b302d4-ec48-43e2-8102-dfcdc8c21f87
+
 ### Snap to Z=0
 
 1. Select a mesh object
